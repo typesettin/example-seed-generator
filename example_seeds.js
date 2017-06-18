@@ -28,5 +28,6 @@ const seeds = [
   { standard_userrole, },
 ];
 
+// fs.outputJsonSync('../accountseed.json', seeds, { spaces: 2 });
 fs.outputJsonSync('./exampleseed.json', seeds, { spaces: 2 });
 // console.log(JSON.stringify(seeds, null, 2));
